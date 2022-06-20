@@ -1,0 +1,95 @@
+
+@font-face {
+
+    font-family: miFuente;
+    font-weight:800;
+    src: url(../tipografias/Montserrat-Black.ttf);
+
+}
+
+@font-face {
+
+    font-family: miFuente;
+    font-weight:700;
+
+    src: url(../tipografias/Montserrat-Bold.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+
+    background-image: url(../imagenes/LANDING-04.png);
+    font-family: miFuente;
+    
+}
+
+header {
+    margin: 0% auto;
+    width: 16%;
+    margin-top: 43%;
+    /* posicionamiento*/
+    
+}
+
+header #segunda {
+    width: 200%;
+    text-align: right;
+    margin-left: 110%;
+
+}
+
+h1 { 
+     font-weight: 800;
+     font-size: 10.5em;
+     color: rgba(250, 250, 250);
+
+}
+
+p,h1 {
+    margin: -6.4%;
+    /* interlineado */
+
+}
+
+p { 
+    font-weight: 700;
+    font-size: 1.70em;
+    color: rgba(250, 250, 250);
+    
+    /* 21px */
+
+}
+
+#parrafo {
+    font-weight: 800;
+    font-size: 3.8em;
+    color: rgba(179, 179, 179);
+    margin-left: 15%;
+    margin-top: -48%;
+
+    /* 65px */
+
+}
+
+img {
+    width: 1.5%;
+    margin-left: 1.7%;
+    margin-bottom: 2.7%;
+
+}
+
+#behance {
+    width: 1.7%;
+
+}
+
+/*
+#rectangulo {
+    width: auto;
+    margin-top: -37%;
+}
+*/
